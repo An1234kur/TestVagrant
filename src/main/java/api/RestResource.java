@@ -12,6 +12,7 @@ import static io.restassured.RestAssured.given;
  * @created : 22/08/2022 - 11:51 AM
  */
 
+// API Methods
 public class RestResource {
     public static Response get() {
         return given().spec(requestSpec()).
